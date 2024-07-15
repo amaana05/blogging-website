@@ -11,7 +11,7 @@ const corsOptions = {
         }
     },
     credentials: true,      //these could be coookie, http auth. its basically requests from dif dif domains
-    optionsSuccessStatus: 200   //use of CORS prefligh check
+    optionsSuccessStatus: 200   //use of CORS prefligh chec
 };
 
 module.exports = corsOptions;

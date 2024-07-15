@@ -20,7 +20,7 @@ const getCurrentUser = async(req,res) => {
 }
 
 const userLogin = async (req, res) => {
-  const user = req.body;
+  const {user} = req.body;
 
   // check if the data exists
   if (!user || !user.email || !user.password) {

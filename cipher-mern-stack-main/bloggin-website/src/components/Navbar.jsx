@@ -18,8 +18,7 @@ function Navbar() {
               activeClassName="active"
               className="navbar-brand"
               to="/"
-              end
-            >
+              end>
               Home
             </NavLink>
           </li>
